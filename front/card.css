@@ -1,0 +1,45 @@
+.card {
+  width: 675px;
+  height: 435px;
+  border-radius: 20px; /* Ensures the card itself has rounded corners */
+  padding: 20px;
+  box-shadow: rgba(151, 65, 252, 0.4) 1px 1px 100px 4px;
+  color: white;
+  position: absolute;
+  left: 280px;
+  top: 300px;
+}
+
+.card .heading {
+  font-size: 18px; /* Adjust font size as needed */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin: 0; /* Remove default margin */
+}
+
+.card .button-container {
+  position: absolute;
+  bottom: 20px; /* Distance from the bottom */
+  right: 30px; /* Distance from the right */
+}
+
+.card .button-container button {
+  width: 70px;
+  height: 30px;
+  padding: 1px 5px;
+  background-color: #ffffff; /* Button background color */
+  color: #000000; /* Button text color */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.card .button-container button:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 0 0 10px 3px rgba(255, 100, 255, 0.7); /* White glowing effect */
+}

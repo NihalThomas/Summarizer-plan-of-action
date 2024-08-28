@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    font-family: 'Outfit', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Adjust space between the words */
+}
+
+.summarize {
+    font-size: 70px;
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+}
+
+.three-sixty {
+    font-size: 80px;
+    font-family: 'Monoton', cursive;
+    color: #fff;
+}

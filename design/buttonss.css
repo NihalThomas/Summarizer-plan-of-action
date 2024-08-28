@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.stApp {
+    background-color: black;
+    background-size: cover;
+}
+
+[data-testid="stHeader"] {
+    background-color: rgba(0,0,0,0);
+}
+
+.bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.outfit-font {
+    font-family: 'Outfit', sans-serif;
+    font-size: 70px;
+    color: white;
+    margin-right: 20px;
+}
+
+.monoton-font {
+    font-family: 'Monoton', cursive;
+    font-size: 80px;
+    color: white;
+}
