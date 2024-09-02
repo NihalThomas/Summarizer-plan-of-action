@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    font-size: 10px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    top: 250px;
+    position: relative;
+    right: 250px;
+}
+
+.box {
+    padding: 20px;
+    border: 2px solid white; /* Glossy white border */
+    border-radius: 15px; /* Rounded corners */
+    background-color: black; /* Black background inside the box */
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2); /* Soft shadow for glossy effect */
+    height: 160px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center; /* Vertically aligns the select and button */
+    justify-content: space-between; /* Add this if you want space between them */
+}
+
+select {
+    width: 70%; /* Adjust width to make room for the button */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 22px;
+    margin-right: 10px; /* Add some space between select and button */
+    background-color: white; /* White background for select */
+    color: black; /* Black text color */
+    border: none; /* No border on select */
+}
+
+button {
+    padding: 0 20px; /* Remove vertical padding, use only horizontal padding */
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 22px;
+    height: 40px; /* Increased height to accommodate text */
+    line-height: 40px; /* Set line-height to match the height */
+    text-align: center;
+    display: inline-block; /* Ensure button behaves as a block-level element */
+    vertical-align: middle; /* Align text vertically */
+    background-color: white; /* White background for button */
+    color: black; /* Black text color */
+    border: none; /* No border on button */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for button */
+    font-weight: bold;
+}
