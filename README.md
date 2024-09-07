@@ -18,9 +18,9 @@ This project leverages advanced Natural Language Processing (NLP) techniques to 
 
 ![Summarizer Image](Screenshots/Summarizer.png)
 
-### Mail Management System
+### Mail System
 
-![Mail Management Image](Screenshots/email_management.png)
+![Mail Management Image](Screenshots/email.png)
 
 
 ## Audio Processing and Text Preprocessing

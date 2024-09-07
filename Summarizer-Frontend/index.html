@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summarize 360</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+
+        /* Loader styles */
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <span class="summarize">Summarize</span>
+        <span class="three-sixty">360</span>
+    </div>
+    <div class="summarizer-btn">
+    
+        <div class="custom-buttons-container">
+            <button id="teamsButton" class="custom-button">Teams</button>
+            <button class="custom-button" id="local-device-button">Local Device</button>
+            
+        </div>
+        <div class="summarizer-process">
+            <div class="Teamcontainer" id="MSTeamcontainer" style="display: none;">
+                <div class="box">
+                    <h1>Choose File from Microsoft Teams</h1>
+                    <select id="fileDropdown">
+                        
+                        <option value="">Loading Files...</option>
+
+                    </select>
+                    <button onclick="downloadFile()">Summarize</button>
+                </div>
+            </div>
+            <div id="loaderContainer" style="display: none;">
+                <div class="spinner"></div>
+                <div class="loader-msg">Loading...</div>
+            </div>
+            <div class="upload-container" id="upload-container">
+                <input type="file" id="file-input" accept="video/*" style="display: none;">
+            </div>
+        </div>
+    </div>
+    
+    <div class="Msg-container" id="Msg-C">
+        
+        <div class="Message-card">
+            <div class="heading">Summary</div>
+            <p id="card-summary">Card content goes here.</p><br>
+            <div class="heading">Plan of action</div>
+            <p id="card-poa">Card content goes here.</p>
+            <div class="button-container">
+                <button onclick="sntmail()" >Send</button>
+            </div>
+        </div>
+        <div class="Mail-container">
+            <h1>Email Recipient List</h1>
+            <form id="emailForm">
+                <input type="email" id="emailInput" placeholder="Enter email ID" required>
+                <button type="submit">Add Email</button>
+            </form>
+            <div class="email-list" id="emailList"></div>
+        </div>
+    </div>
+    <div class="empty">&nbsp
+    </div>
+    <section class="summarize-footer">
+        Empowering you with concise insights for smarter decisions.
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
